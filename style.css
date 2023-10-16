@@ -1,0 +1,149 @@
+#banner{
+ background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    border-bottom: 4px solid black;
+    top: 0;
+    position: fixed;
+    
+
+}
+input{
+    background-color: #f7ff00;
+}
+#banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+}
+
+header{
+    display: block;
+    width: 100%;
+
+}
+
+#main-header {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+}
+
+#main-header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+main{
+    width: 70%;
+    display: inline-block;
+
+}
+
+aside{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-top: 10px;
+}
+#content{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+body{
+    margin-top: 7%;
+    background : linear-gradient( to right , #f7ff00,#db36a4);
+}
+
+.widget{
+    padding-top: 30px;
+    border-top: 4px solid black;
+    font-size: 30px;
+    display: block;
+    margin-left: 10%;
+    margin-top: 10%;
+   
+}
+.widget input{
+    display: block;
+    font-size: 25px;
+    margin: 5px;
+    border: solid black 2px;
+   
+    
+}
+.widget button{
+    background-color: black;
+    font-size: 30px;
+    margin: 5px;
+    color: white;
+}
+
+#post p{
+    font-size: 30px;
+}
+
+li h4{
+    font-size: 40px;
+}
+#post h2{
+    font-size: 50px;
+}
+
+#list img{
+    height: 60%;
+    width: 80%;
+}
+.a{
+    margin-left: 40px;
+}
+i{
+    color: black;
+    font-size: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+@media screen and (max-width: 768px) {
+    .widget {
+      font-size: 18px;
+      margin: 10px;
+    }
+  
+    .widget input {
+      font-size: 16px;
+    }
+  
+    .widget button {
+      font-size: 18px;
+    }
+  }
+  
+  /* Responsive styles for even smaller screens */
+  
+  @media screen and (max-width: 480px) {
+    .widget {
+      font-size: 16px;
+      margin: 5px;
+    }
+  
+    .widget input {
+      font-size: 14px;
+    }
+  
+    .widget button {
+      font-size: 16px;
+    }
+  }
